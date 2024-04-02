@@ -3,7 +3,7 @@ top_number = input("Please enter the top range number: ")
 if top_number.isdigit():
     top_number = int(top_number)
     if top_number <= 0:
-        print("Please enter the values greater than 0 next try!")
+        print("Please enter the values greater than 0 in next try!")
         quit()
 else:
     print("Enter a valid number in next try!")
